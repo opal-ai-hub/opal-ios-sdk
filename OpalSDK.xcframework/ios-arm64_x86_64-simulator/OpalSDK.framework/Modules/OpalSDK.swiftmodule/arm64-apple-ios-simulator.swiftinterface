@@ -20,6 +20,47 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+
+public struct InboxMessage : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let itemID: Swift.String
+  public let title: Swift.String
+  public var text: Swift.String?
+  public let createdAt: Foundation.Date
+  public let expiresAt: Foundation.Date?
+  public var isRead: Swift.Bool
+  public let extra: [Swift.AnyHashable : Any]
+  public var image: Swift.String?
+  public let actionable: Swift.Bool
+  public typealias ID = Swift.String
+}
+public enum OpalError : Swift.Error {
+  case serviceUnavailable
+  case featureNotEnabled
+  case maxUserIDReached(supplied: Swift.Int, max: Swift.Int)
+  case maxTagsReached(supplied: Swift.Int, max: Swift.Int)
+  case maxTagLengthReached(supplied: Swift.String)
+  case invalidScreenName(supplied: Swift.String)
+  case invalidExtraKey(supplied: Swift.String)
+  case emptyExtraKey(supplied: Swift.String)
+  case invalidExtraValue(key: Swift.String)
+  case invalidCategory(supplied: Swift.String)
+  case invalidAction(supplied: Swift.String)
+  case invalidExtraData
+  case invalidConfigurationFile
+  case invalidConfigurationArguments
+  case undefinedMode
+  case invalidAppKey
+  case invalidAppSecret
+  case invalidEnvironment
+  case invalidPlaceData
+  case invalidCoreDataContext
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
 @objc @objcMembers public class OpalCustomEventItem : ObjectiveC.NSObject {
   @objc public var id: Swift.String
   @objc public var type: Swift.String
@@ -118,47 +159,6 @@ extension OpalSDK.Opal {
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
   
-}
-public struct InboxMessage : Swift.Identifiable {
-  public var id: Swift.String {
-    get
-  }
-  public let itemID: Swift.String
-  public let title: Swift.String
-  public var text: Swift.String?
-  public let createdAt: Foundation.Date
-  public let expiresAt: Foundation.Date?
-  public var isRead: Swift.Bool
-  public let extra: [Swift.AnyHashable : Any]
-  public var image: Swift.String?
-  public let actionable: Swift.Bool
-  public typealias ID = Swift.String
-}
-
-public enum OpalError : Swift.Error {
-  case serviceUnavailable
-  case featureNotEnabled
-  case maxUserIDReached(supplied: Swift.Int, max: Swift.Int)
-  case maxTagsReached(supplied: Swift.Int, max: Swift.Int)
-  case maxTagLengthReached(supplied: Swift.String)
-  case invalidScreenName(supplied: Swift.String)
-  case invalidExtraKey(supplied: Swift.String)
-  case emptyExtraKey(supplied: Swift.String)
-  case invalidExtraValue(key: Swift.String)
-  case invalidCategory(supplied: Swift.String)
-  case invalidAction(supplied: Swift.String)
-  case invalidExtraData
-  case invalidConfigurationFile
-  case invalidConfigurationArguments
-  case undefinedMode
-  case invalidAppKey
-  case invalidAppSecret
-  case invalidEnvironment
-  case invalidPlaceData
-  case invalidCoreDataContext
-  public var localizedDescription: Swift.String {
-    get
-  }
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}

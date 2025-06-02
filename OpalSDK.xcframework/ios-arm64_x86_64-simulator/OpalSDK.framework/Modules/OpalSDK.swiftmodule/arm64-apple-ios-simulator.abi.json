@@ -32,6 +32,2086 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InboxMessage",
+        "printedName": "InboxMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV2idSSvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV2idSSvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV2idSSvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV2idSSvg",
+                "moduleName": "OpalSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "itemID",
+            "printedName": "itemID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV6itemIDSSvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV6itemIDSSvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV6itemIDSSvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV6itemIDSSvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV5titleSSvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV5titleSSvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV5titleSSvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV5titleSSvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV4textSSSgvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvs",
+                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvs",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvM",
+                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvM",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRead",
+            "printedName": "isRead",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV6isReadSbvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvs",
+                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvs",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvM",
+                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvM",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extra",
+            "printedName": "extra",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvs",
+                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvs",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvM",
+                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvM",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionable",
+            "printedName": "actionable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK12InboxMessageV10actionableSbvp",
+            "mangledName": "$s7OpalSDK12InboxMessageV10actionableSbvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK12InboxMessageV10actionableSbvg",
+                "mangledName": "$s7OpalSDK12InboxMessageV10actionableSbvg",
+                "moduleName": "OpalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7OpalSDK12InboxMessageV",
+        "mangledName": "$s7OpalSDK12InboxMessageV",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OpalError",
+        "printedName": "OpalError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serviceUnavailable",
+            "printedName": "serviceUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO18serviceUnavailableyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO18serviceUnavailableyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureNotEnabled",
+            "printedName": "featureNotEnabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO17featureNotEnabledyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO17featureNotEnabledyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxUserIDReached",
+            "printedName": "maxUserIDReached",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.Int, Swift.Int) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.Int, max: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO16maxUserIDReachedyACSi_SitcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO16maxUserIDReachedyACSi_SitcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTagsReached",
+            "printedName": "maxTagsReached",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.Int, Swift.Int) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.Int, max: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO14maxTagsReachedyACSi_SitcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO14maxTagsReachedyACSi_SitcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTagLengthReached",
+            "printedName": "maxTagLengthReached",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO19maxTagLengthReachedyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO19maxTagLengthReachedyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidScreenName",
+            "printedName": "invalidScreenName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO17invalidScreenNameyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO17invalidScreenNameyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidExtraKey",
+            "printedName": "invalidExtraKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO15invalidExtraKeyyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO15invalidExtraKeyyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emptyExtraKey",
+            "printedName": "emptyExtraKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO13emptyExtraKeyyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO13emptyExtraKeyyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidExtraValue",
+            "printedName": "invalidExtraValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO17invalidExtraValueyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO17invalidExtraValueyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidCategory",
+            "printedName": "invalidCategory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO15invalidCategoryyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO15invalidCategoryyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidAction",
+            "printedName": "invalidAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(supplied: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO13invalidActionyACSS_tcACmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO13invalidActionyACSS_tcACmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidExtraData",
+            "printedName": "invalidExtraData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO16invalidExtraDatayA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO16invalidExtraDatayA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidConfigurationFile",
+            "printedName": "invalidConfigurationFile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO24invalidConfigurationFileyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO24invalidConfigurationFileyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidConfigurationArguments",
+            "printedName": "invalidConfigurationArguments",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO29invalidConfigurationArgumentsyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO29invalidConfigurationArgumentsyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "undefinedMode",
+            "printedName": "undefinedMode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO13undefinedModeyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO13undefinedModeyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidAppKey",
+            "printedName": "invalidAppKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO13invalidAppKeyyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO13invalidAppKeyyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidAppSecret",
+            "printedName": "invalidAppSecret",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO16invalidAppSecretyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO16invalidAppSecretyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidEnvironment",
+            "printedName": "invalidEnvironment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO18invalidEnvironmentyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO18invalidEnvironmentyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidPlaceData",
+            "printedName": "invalidPlaceData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO16invalidPlaceDatayA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO16invalidPlaceDatayA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidCoreDataContext",
+            "printedName": "invalidCoreDataContext",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpalError",
+                    "printedName": "OpalSDK.OpalError",
+                    "usr": "s:7OpalSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpalSDK.OpalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpalError",
+                        "printedName": "OpalSDK.OpalError",
+                        "usr": "s:7OpalSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OpalSDK0A5ErrorO22invalidCoreDataContextyA2CmF",
+            "mangledName": "$s7OpalSDK0A5ErrorO22invalidCoreDataContextyA2CmF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK0A5ErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s7OpalSDK0A5ErrorO20localizedDescriptionSSvp",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK0A5ErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s7OpalSDK0A5ErrorO20localizedDescriptionSSvg",
+                "moduleName": "OpalSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7OpalSDK0A5ErrorO",
+        "mangledName": "$s7OpalSDK0A5ErrorO",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "OpalCustomEventItem",
         "printedName": "OpalCustomEventItem",
@@ -2428,86 +4508,76 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -2535,23 +4605,6 @@
         "kind": "Import",
         "name": "Security",
         "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -2591,8 +4644,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -2608,8 +4661,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -2618,8 +4671,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -2652,13 +4705,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2671,6 +4717,30 @@
         "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -4165,16 +6235,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4192,8 +6252,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -4202,15 +6262,8 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "CoreData",
+        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -4257,81 +6310,6 @@
         "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -4369,6 +6347,40 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4386,13 +6398,10 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "OpalSDK"
       },
       {
         "kind": "Import",
@@ -4430,746 +6439,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InboxMessage",
-        "printedName": "InboxMessage",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV2idSSvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV2idSSvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV2idSSvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV2idSSvg",
-                "moduleName": "OpalSDK",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "itemID",
-            "printedName": "itemID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV6itemIDSSvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV6itemIDSSvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV6itemIDSSvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV6itemIDSSvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV5titleSSvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV5titleSSvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV5titleSSvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV5titleSSvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "text",
-            "printedName": "text",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV4textSSSgvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvs",
-                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvs",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV4textSSSgvM",
-                "mangledName": "$s7OpalSDK12InboxMessageV4textSSSgvM",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "createdAt",
-            "printedName": "createdAt",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV9createdAt10Foundation4DateVvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "expiresAt",
-            "printedName": "expiresAt",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Date?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Date?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Date",
-                        "printedName": "Foundation.Date",
-                        "usr": "s:10Foundation4DateV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV9expiresAt10Foundation4DateVSgvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isRead",
-            "printedName": "isRead",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV6isReadSbvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvs",
-                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvs",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV6isReadSbvM",
-                "mangledName": "$s7OpalSDK12InboxMessageV6isReadSbvM",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "extra",
-            "printedName": "extra",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.AnyHashable : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.AnyHashable : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV5extraSDys11AnyHashableVypGvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvs",
-                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvs",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV5imageSSSgvM",
-                "mangledName": "$s7OpalSDK12InboxMessageV5imageSSSgvM",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "actionable",
-            "printedName": "actionable",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK12InboxMessageV10actionableSbvp",
-            "mangledName": "$s7OpalSDK12InboxMessageV10actionableSbvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK12InboxMessageV10actionableSbvg",
-                "mangledName": "$s7OpalSDK12InboxMessageV10actionableSbvg",
-                "moduleName": "OpalSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7OpalSDK12InboxMessageV",
-        "mangledName": "$s7OpalSDK12InboxMessageV",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5177,1285 +6446,16 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OpalError",
-        "printedName": "OpalError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "serviceUnavailable",
-            "printedName": "serviceUnavailable",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO18serviceUnavailableyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO18serviceUnavailableyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "featureNotEnabled",
-            "printedName": "featureNotEnabled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO17featureNotEnabledyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO17featureNotEnabledyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "maxUserIDReached",
-            "printedName": "maxUserIDReached",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.Int, Swift.Int) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Swift.Int) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.Int, max: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO16maxUserIDReachedyACSi_SitcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO16maxUserIDReachedyACSi_SitcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "maxTagsReached",
-            "printedName": "maxTagsReached",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.Int, Swift.Int) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Swift.Int) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.Int, max: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO14maxTagsReachedyACSi_SitcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO14maxTagsReachedyACSi_SitcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "maxTagLengthReached",
-            "printedName": "maxTagLengthReached",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO19maxTagLengthReachedyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO19maxTagLengthReachedyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidScreenName",
-            "printedName": "invalidScreenName",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO17invalidScreenNameyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO17invalidScreenNameyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidExtraKey",
-            "printedName": "invalidExtraKey",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO15invalidExtraKeyyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO15invalidExtraKeyyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "emptyExtraKey",
-            "printedName": "emptyExtraKey",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO13emptyExtraKeyyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO13emptyExtraKeyyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidExtraValue",
-            "printedName": "invalidExtraValue",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(key: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO17invalidExtraValueyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO17invalidExtraValueyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidCategory",
-            "printedName": "invalidCategory",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO15invalidCategoryyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO15invalidCategoryyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidAction",
-            "printedName": "invalidAction",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> (Swift.String) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpalSDK.OpalError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(supplied: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO13invalidActionyACSS_tcACmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO13invalidActionyACSS_tcACmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidExtraData",
-            "printedName": "invalidExtraData",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO16invalidExtraDatayA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO16invalidExtraDatayA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidConfigurationFile",
-            "printedName": "invalidConfigurationFile",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO24invalidConfigurationFileyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO24invalidConfigurationFileyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidConfigurationArguments",
-            "printedName": "invalidConfigurationArguments",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO29invalidConfigurationArgumentsyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO29invalidConfigurationArgumentsyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "undefinedMode",
-            "printedName": "undefinedMode",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO13undefinedModeyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO13undefinedModeyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidAppKey",
-            "printedName": "invalidAppKey",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO13invalidAppKeyyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO13invalidAppKeyyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidAppSecret",
-            "printedName": "invalidAppSecret",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO16invalidAppSecretyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO16invalidAppSecretyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidEnvironment",
-            "printedName": "invalidEnvironment",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO18invalidEnvironmentyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO18invalidEnvironmentyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidPlaceData",
-            "printedName": "invalidPlaceData",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO16invalidPlaceDatayA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO16invalidPlaceDatayA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidCoreDataContext",
-            "printedName": "invalidCoreDataContext",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpalSDK.OpalError.Type) -> OpalSDK.OpalError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpalError",
-                    "printedName": "OpalSDK.OpalError",
-                    "usr": "s:7OpalSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpalSDK.OpalError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpalError",
-                        "printedName": "OpalSDK.OpalError",
-                        "usr": "s:7OpalSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7OpalSDK0A5ErrorO22invalidCoreDataContextyA2CmF",
-            "mangledName": "$s7OpalSDK0A5ErrorO22invalidCoreDataContextyA2CmF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "localizedDescription",
-            "printedName": "localizedDescription",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7OpalSDK0A5ErrorO20localizedDescriptionSSvp",
-            "mangledName": "$s7OpalSDK0A5ErrorO20localizedDescriptionSSvp",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7OpalSDK0A5ErrorO20localizedDescriptionSSvg",
-                "mangledName": "$s7OpalSDK0A5ErrorO20localizedDescriptionSSvg",
-                "moduleName": "OpalSDK",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:7OpalSDK0A5ErrorO",
-        "mangledName": "$s7OpalSDK0A5ErrorO",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
       },
       {
         "kind": "TypeDecl",
@@ -6583,6 +6583,125 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5123,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
+      "kind": "StringLiteral",
+      "offset": 7893,
+      "length": 25,
+      "value": "\"https:\/\/www.trebbble.co\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4931,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4975,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5071,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 33,
+      "value": "\"Starting location monitoring...\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 37,
+      "value": "\"Location manager delegate is nil...\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5959,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 17,
+      "value": "\"TBOpalDB.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/ImageURLProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 204,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/ImageURLProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 34,
+      "value": "\"com.apple.imageLoaderURLProtocol\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/DebugSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 5162,
+      "length": 22,
+      "value": "\"TBOPAL_FORCE_LOGGING\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/DebugSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 5217,
+      "length": 31,
+      "value": "\"TBOPAL_FORCE_PRINT_STATEMENTS\""
+    },
+    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
       "kind": "IntegerLiteral",
       "offset": 11726,
@@ -6602,6 +6721,62 @@
       "offset": 11886,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
+      "kind": "Array",
+      "offset": 961,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32085,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Logger.swift",
@@ -6709,62 +6884,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 398,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 438,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 633,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
-      "kind": "Array",
-      "offset": 961,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32573,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 315,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 334,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 353,
-      "length": 1,
-      "value": "3"
-    },
-    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 310,
@@ -6798,6 +6917,41 @@
       "offset": 1942,
       "length": 16,
       "value": "\"events_options\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1247,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1264,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 11,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1299,
+      "length": 8,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
@@ -6840,41 +6994,6 @@
       "offset": 38437,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1236,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1247,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1264,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1278,
-      "length": 11,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/ActionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1299,
-      "length": 8,
-      "value": "4"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/OpalNotification.swift",
@@ -6931,6 +7050,69 @@
       "offset": 933,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "Array",
+      "offset": 541,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7402,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7689,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7718,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13091,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14076,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
@@ -7017,67 +7199,32 @@
       "value": "\"TBOPAL_UNREAD_COUNT_UPDATED_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 189,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "Array",
-      "offset": 541,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 569,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 601,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
       "kind": "IntegerLiteral",
-      "offset": 7402,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7689,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7718,
+      "offset": 315,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APNSClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 13091,
+      "offset": 1078,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/OpalView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14076,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal+SwiftUI.swift",
@@ -7085,153 +7232,6 @@
       "offset": 258,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APNSClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1028,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 327,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 348,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4984,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5123,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5175,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5234,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
-      "kind": "StringLiteral",
-      "offset": 7893,
-      "length": 25,
-      "value": "\"https:\/\/www.trebbble.co\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 33,
-      "value": "\"Starting location monitoring...\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 37,
-      "value": "\"Location manager delegate is nil...\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1326,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/LocationManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5959,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4931,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4975,
-      "length": 5,
-      "value": "\"n\/a\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DeviceManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5071,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/DebugSupport.swift",
-      "kind": "StringLiteral",
-      "offset": 5162,
-      "length": 22,
-      "value": "\"TBOPAL_FORCE_LOGGING\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/DebugSupport.swift",
-      "kind": "StringLiteral",
-      "offset": 5217,
-      "length": 31,
-      "value": "\"TBOPAL_FORCE_PRINT_STATEMENTS\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/ImageURLProtocol.swift",
-      "kind": "BooleanLiteral",
-      "offset": 204,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/ImageURLProtocol.swift",
-      "kind": "StringLiteral",
-      "offset": 300,
-      "length": 34,
-      "value": "\"com.apple.imageLoaderURLProtocol\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/CoreDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 942,
-      "length": 17,
-      "value": "\"TBOpalDB.sqlite\""
     }
   ]
 }
