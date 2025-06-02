@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rj5mC8HBxuqPDWj7NIdjMB0tO2c=
+		ISLh+dAa2WRpwL1qutVH0zG5YcQ=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hT9nO3FBfCpqCQNvQvzBe1R1Kig=
+		kLKwu9yD2EpA1wpXXeM6fGtIFis=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TvXxnsYoaPYmdOW17/wOcrZB8Dg=
+		0AId98GrNcT5f2Z0Oki7LY0nrG0=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hT9nO3FBfCpqCQNvQvzBe1R1Kig=
+		kLKwu9yD2EpA1wpXXeM6fGtIFis=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Twolnc9VpTiaKDL8EdVS21ZfhE=
+		q81ywfrme8RsmqOpm2ESZ9E4ueU=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rj5mC8HBxuqPDWj7NIdjMB0tO2c=
+		ISLh+dAa2WRpwL1qutVH0zG5YcQ=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WLd0hKDXpRa1yi9yWG0STHF4Jgc=
+		aHVXRpg67Nhb5OizDcYvMFdPhPY=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0mvjYFAgi4V3FUcuCoOJpg+d/74=
+		8w3n22aUbWx5YsoMB38Q0NB/PG0=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WLd0hKDXpRa1yi9yWG0STHF4Jgc=
+		aHVXRpg67Nhb5OizDcYvMFdPhPY=
 		</data>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wU4IgT/03Ctd//ouMldR9NwGHpw=
+		BRcQMHong/TnFn7uNOkHU29gxwY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,70 +125,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cHWDRSbPrjVftpb3GrTN4pdhxIThp0ZmvJMTGtqHhI=
+			FtKn49jmukAudlVnbhFboATFjpGG6D2zdQvFsK9W0Kw=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2epb0C+p3JVrl+/DouRl7yVrYNwFkTl8Yj8SAcy3DGo=
+			2uvbaUHxKeFV/zzyjFYxQhiXHsN3WA9CVuM2QPXKfII=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lh5Zh4h/xFV4vg83fX4ieywAzg8QTry8gJrmNVD5YDw=
+			+2ulkI3yif/7rubVafUFm9YRkdUDxjKsluokxQ85U5g=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2epb0C+p3JVrl+/DouRl7yVrYNwFkTl8Yj8SAcy3DGo=
+			2uvbaUHxKeFV/zzyjFYxQhiXHsN3WA9CVuM2QPXKfII=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVadeBESEoKebjisdC1eF+rxpRUW8sfDINbtcvBbmaw=
+			CGQfAwo7BqKOn21C1orkCYOxQWFY4bNz0762toVO6PI=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cHWDRSbPrjVftpb3GrTN4pdhxIThp0ZmvJMTGtqHhI=
+			FtKn49jmukAudlVnbhFboATFjpGG6D2zdQvFsK9W0Kw=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVSGVpdGQgM8njB3+eBXjemKjr270axfG473KZZ8YGM=
+			Iqd7mMVd2E3Gek81nuC/4YCa4jnP91FOLNBYnXr38SI=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+XOWtIYNUWX6peL3/S6JuN/jTFMZWgF1N527k/NRZA=
+			NT+hkkdRalaRQohw1T9gePCKlEKupNqgWGpFTekT5f4=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVSGVpdGQgM8njB3+eBXjemKjr270axfG473KZZ8YGM=
+			Iqd7mMVd2E3Gek81nuC/4YCa4jnP91FOLNBYnXr38SI=
 			</data>
 		</dict>
 		<key>Modules/OpalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			afdLqqYTkxHax226PJPJoKXUdSjTbsV1Ckkl0ZlzWAo=
+			uXw/Wf0e9s1YqfcHJFip0PCedbja2Vf1hdSgyK9v1Po=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

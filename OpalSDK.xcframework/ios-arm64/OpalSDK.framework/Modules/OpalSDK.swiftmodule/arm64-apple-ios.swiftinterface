@@ -21,6 +21,47 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 extension OpalSDK.Opal {
+  final public func enableAutomaticNotificationDelegation()
+}
+public struct OpalNotifications {
+  public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
+  public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
+}
+@_hasMissingDesignatedInitializers final public class Opal {
+  public static let manager: OpalSDK.Opal
+  @objc deinit
+  final public var deeplinkDismissesCampaigns: Swift.Bool
+  final public func closeCampaignIfVisible(animated: Swift.Bool = true)
+  final public var defaultUser: Swift.String {
+    get
+  }
+  final public func start(withConfigurationFile file: Swift.String) throws(OpalSDK.OpalError)
+  @discardableResult
+  final public func handleRemoteNotification(_ notification: [Swift.AnyHashable : Any], completionHandler: ((UIKit.UIBackgroundFetchResult) -> Swift.Void)?) -> Swift.Bool
+  @discardableResult
+  final public func handleRemoteNotificationResponse(_ response: UserNotifications.UNNotificationResponse, completionHandler: (() -> Swift.Void)?) -> Swift.Bool
+  @discardableResult
+  final public func handleLocalNotification(_ notification: UserNotifications.UNNotification, completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  final public func presentInboxItem(_ item: OpalSDK.InboxMessage) throws
+  final public func handleDeviceToken(_ deviceToken: Foundation.Data)
+  @discardableResult
+  @_Concurrency.MainActor final public func fetchInbox() async throws -> [OpalSDK.InboxMessage]
+  final public func fetchInbox(completionHandler: ((_ messages: [OpalSDK.InboxMessage]?, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  final public func logoutUser()
+  final public func loginUser(_ user: Swift.String) async throws
+  final public func loginUser(_ user: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  final public func registerForPushNotifications(preferProvisional: Swift.Bool = false)
+  @_Concurrency.MainActor final public func numberOfUnreadMessages() async -> Swift.UInt
+  final public func numberOfUnreadMessages(completion: @escaping (Swift.UInt) -> Swift.Void)
+  final public func logScreenWithName(_ name: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
+  final public func didRegister(_ settings: UserNotifications.UNNotificationSettings) throws(OpalSDK.OpalError)
+  final public func logEventWith(category: Swift.String, action: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
+  final public func deleteInboxMessage(_ message: OpalSDK.InboxMessage?) throws(OpalSDK.OpalError)
+  final public func registerPreferences(_ tags: [Swift.String]) throws(OpalSDK.OpalError)
+  final public func enablePlaces() throws(OpalSDK.OpalError)
+  final public func disablePlaces() throws(OpalSDK.OpalError)
+}
+extension OpalSDK.Opal {
   public enum LogScreenMode {
     case onLoad
     case onAppear
@@ -118,47 +159,6 @@ public enum OpalError : Swift.Error {
   public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
   @objc override dynamic public init()
   @objc deinit
-}
-extension OpalSDK.Opal {
-  final public func enableAutomaticNotificationDelegation()
-}
-public struct OpalNotifications {
-  public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
-  public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
-}
-@_hasMissingDesignatedInitializers final public class Opal {
-  public static let manager: OpalSDK.Opal
-  @objc deinit
-  final public var deeplinkDismissesCampaigns: Swift.Bool
-  final public func closeCampaignIfVisible(animated: Swift.Bool = true)
-  final public var defaultUser: Swift.String {
-    get
-  }
-  final public func start(withConfigurationFile file: Swift.String) throws(OpalSDK.OpalError)
-  @discardableResult
-  final public func handleRemoteNotification(_ notification: [Swift.AnyHashable : Any], completionHandler: ((UIKit.UIBackgroundFetchResult) -> Swift.Void)?) -> Swift.Bool
-  @discardableResult
-  final public func handleRemoteNotificationResponse(_ response: UserNotifications.UNNotificationResponse, completionHandler: (() -> Swift.Void)?) -> Swift.Bool
-  @discardableResult
-  final public func handleLocalNotification(_ notification: UserNotifications.UNNotification, completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
-  final public func presentInboxItem(_ item: OpalSDK.InboxMessage) throws
-  final public func handleDeviceToken(_ deviceToken: Foundation.Data)
-  @discardableResult
-  @_Concurrency.MainActor final public func fetchInbox() async throws -> [OpalSDK.InboxMessage]
-  final public func fetchInbox(completionHandler: ((_ messages: [OpalSDK.InboxMessage]?, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
-  final public func logoutUser()
-  final public func loginUser(_ user: Swift.String) async throws
-  final public func loginUser(_ user: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
-  final public func registerForPushNotifications(preferProvisional: Swift.Bool = false)
-  @_Concurrency.MainActor final public func numberOfUnreadMessages() async -> Swift.UInt
-  final public func numberOfUnreadMessages(completion: @escaping (Swift.UInt) -> Swift.Void)
-  final public func logScreenWithName(_ name: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
-  final public func didRegister(_ settings: UserNotifications.UNNotificationSettings) throws(OpalSDK.OpalError)
-  final public func logEventWith(category: Swift.String, action: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
-  final public func deleteInboxMessage(_ message: OpalSDK.InboxMessage?) throws(OpalSDK.OpalError)
-  final public func registerPreferences(_ tags: [Swift.String]) throws(OpalSDK.OpalError)
-  final public func enablePlaces() throws(OpalSDK.OpalError)
-  final public func disablePlaces() throws(OpalSDK.OpalError)
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}

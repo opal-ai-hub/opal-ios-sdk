@@ -20,6 +20,52 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+@objc @objcMembers public class OpalCustomEventItem : ObjectiveC.NSObject {
+  @objc public var id: Swift.String
+  @objc public var type: Swift.String
+  @objc public var name: Swift.String?
+  @objc public var data: [Swift.String : Any]?
+  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@objc @objcMembers final public class OpalRetailItem : OpalSDK.OpalCustomEventItem {
+  @objc final public var brand: Swift.String?
+  @objc final public var price: Foundation.Decimal
+  @objc final public var currencyCode: Swift.String
+  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, brand: Swift.String? = nil, price: Foundation.Decimal, currencyCode: Swift.String, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class OpalContentItem : OpalSDK.OpalCustomEventItem {
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class OpalRetailEvent : OpalSDK.OpalCustomEventItem {
+  @objc public static func purchase(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal, success: Swift.Bool, reason: Swift.String?) throws
+  @objc public static func view(item: OpalSDK.OpalRetailItem) throws
+  @objc public static func addToCart(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal) throws
+  @objc public static func addToWishlist(item: OpalSDK.OpalRetailItem) throws
+  @objc public static func share(item: OpalSDK.OpalRetailItem, method: Swift.String) throws
+  @objc public static func rate(item: OpalSDK.OpalRetailItem, rating: Foundation.Decimal) throws
+  @objc public static func startCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
+  @objc public static func completeCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class OpalContentEvent : OpalSDK.OpalCustomEventItem {
+  @objc public static func view(content: OpalSDK.OpalContentItem) throws
+  @objc public static func share(content: OpalSDK.OpalContentItem, method: Swift.String) throws
+  @objc public static func rate(content: OpalSDK.OpalContentItem, rating: Foundation.Decimal) throws
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class OpalGenericEvent : ObjectiveC.NSObject {
+  public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension OpalSDK.Opal {
+  final public func enableAutomaticNotificationDelegation()
+}
 public struct OpalNotifications {
   public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
   public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
@@ -113,52 +159,6 @@ public enum OpalError : Swift.Error {
   public var localizedDescription: Swift.String {
     get
   }
-}
-@objc @objcMembers public class OpalCustomEventItem : ObjectiveC.NSObject {
-  @objc public var id: Swift.String
-  @objc public var type: Swift.String
-  @objc public var name: Swift.String?
-  @objc public var data: [Swift.String : Any]?
-  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-@objc @objcMembers final public class OpalRetailItem : OpalSDK.OpalCustomEventItem {
-  @objc final public var brand: Swift.String?
-  @objc final public var price: Foundation.Decimal
-  @objc final public var currencyCode: Swift.String
-  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, brand: Swift.String? = nil, price: Foundation.Decimal, currencyCode: Swift.String, data: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @objcMembers final public class OpalContentItem : OpalSDK.OpalCustomEventItem {
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc final public class OpalRetailEvent : OpalSDK.OpalCustomEventItem {
-  @objc public static func purchase(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal, success: Swift.Bool, reason: Swift.String?) throws
-  @objc public static func view(item: OpalSDK.OpalRetailItem) throws
-  @objc public static func addToCart(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal) throws
-  @objc public static func addToWishlist(item: OpalSDK.OpalRetailItem) throws
-  @objc public static func share(item: OpalSDK.OpalRetailItem, method: Swift.String) throws
-  @objc public static func rate(item: OpalSDK.OpalRetailItem, rating: Foundation.Decimal) throws
-  @objc public static func startCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
-  @objc public static func completeCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class OpalContentEvent : OpalSDK.OpalCustomEventItem {
-  @objc public static func view(content: OpalSDK.OpalContentItem) throws
-  @objc public static func share(content: OpalSDK.OpalContentItem, method: Swift.String) throws
-  @objc public static func rate(content: OpalSDK.OpalContentItem, rating: Foundation.Decimal) throws
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class OpalGenericEvent : ObjectiveC.NSObject {
-  public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension OpalSDK.Opal {
-  final public func enableAutomaticNotificationDelegation()
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}
