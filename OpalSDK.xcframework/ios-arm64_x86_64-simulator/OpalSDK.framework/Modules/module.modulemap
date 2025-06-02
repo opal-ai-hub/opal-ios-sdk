@@ -1,0 +1,4 @@
+framework module OpalSDK {
+  header "OpalSDK-Swift.h"
+  requires objc
+}
