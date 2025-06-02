@@ -20,6 +20,21 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+extension OpalSDK.Opal {
+  public enum LogScreenMode {
+    case onLoad
+    case onAppear
+    public static func == (a: OpalSDK.Opal.LogScreenMode, b: OpalSDK.Opal.LogScreenMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
+  
+}
 
 public struct InboxMessage : Swift.Identifiable {
   public var id: Swift.String {
@@ -144,21 +159,6 @@ public struct OpalNotifications {
   final public func registerPreferences(_ tags: [Swift.String]) throws(OpalSDK.OpalError)
   final public func enablePlaces() throws(OpalSDK.OpalError)
   final public func disablePlaces() throws(OpalSDK.OpalError)
-}
-extension OpalSDK.Opal {
-  public enum LogScreenMode {
-    case onLoad
-    case onAppear
-    public static func == (a: OpalSDK.Opal.LogScreenMode, b: OpalSDK.Opal.LogScreenMode) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
-  
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}

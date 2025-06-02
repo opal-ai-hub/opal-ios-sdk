@@ -40,6 +40,33 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -66,6 +93,23 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -811,23 +855,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -847,6 +874,23 @@
         "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -910,40 +954,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -951,6 +961,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
       },
       {
         "kind": "Import",
@@ -2059,8 +2086,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -2086,8 +2113,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
@@ -4576,6 +4603,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4644,23 +4688,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4705,23 +4732,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4741,6 +4751,40 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -5972,28 +6016,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "enableAutomaticNotificationDelegation",
-            "printedName": "enableAutomaticNotificationDelegation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7OpalSDK0A0C37enableAutomaticNotificationDelegationyyF",
-            "mangledName": "$s7OpalSDK0A0C37enableAutomaticNotificationDelegationyyF",
-            "moduleName": "OpalSDK",
-            "declAttributes": [
-              "Final",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "TypeDecl",
             "name": "LogScreenMode",
             "printedName": "LogScreenMode",
@@ -6204,6 +6226,28 @@
                 "mangledName": "$sSH"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableAutomaticNotificationDelegation",
+            "printedName": "enableAutomaticNotificationDelegation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OpalSDK0A0C37enableAutomaticNotificationDelegationyyF",
+            "mangledName": "$s7OpalSDK0A0C37enableAutomaticNotificationDelegationyyF",
+            "moduleName": "OpalSDK",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -6279,23 +6323,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6308,40 +6335,6 @@
         "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -6354,30 +6347,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OpalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OpalSDK"
       },
       {
         "kind": "Import",
@@ -6415,8 +6384,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "OpalSDK"
       },
@@ -6439,6 +6408,30 @@
       },
       {
         "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6449,13 +6442,20 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OpalSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "OpalSDK"
       },
       {
         "kind": "TypeDecl",
@@ -6583,6 +6583,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal+SwiftUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 258,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/UI\/RichPushView.swift",
       "kind": "BooleanLiteral",
       "offset": 4984,
@@ -6667,13 +6674,6 @@
       "value": "20"
     },
     {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/CoreDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 942,
-      "length": 17,
-      "value": "\"TBOpalDB.sqlite\""
-    },
-    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Inapp Campaigns\/ImageURLProtocol.swift",
       "kind": "BooleanLiteral",
       "offset": 204,
@@ -6688,6 +6688,13 @@
       "value": "\"com.apple.imageLoaderURLProtocol\""
     },
     {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 17,
+      "value": "\"TBOpalDB.sqlite\""
+    },
+    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/DebugSupport.swift",
       "kind": "StringLiteral",
       "offset": 5162,
@@ -6700,27 +6707,6 @@
       "offset": 5217,
       "length": 31,
       "value": "\"TBOPAL_FORCE_PRINT_STATEMENTS\""
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11726,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11863,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11886,
-      "length": 2,
-      "value": "60"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Additions.swift",
@@ -6742,6 +6728,27 @@
       "offset": 348,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11726,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11863,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APIClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11886,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
@@ -6774,7 +6781,7 @@
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/DBManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 32085,
+      "offset": 32087,
       "length": 5,
       "value": "false"
     },
@@ -7115,6 +7122,27 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 12248,
@@ -7199,37 +7227,9 @@
       "value": "\"TBOPAL_UNREAD_COUNT_UPDATED_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 315,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 334,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Coredata Models\/Class Definitions\/TBPlace+CoreDataClass.swift",
-      "kind": "IntegerLiteral",
-      "offset": 353,
-      "length": 1,
-      "value": "3"
-    },
-    {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/APNSClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1078,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal+SwiftUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 258,
+      "offset": 1191,
       "length": 5,
       "value": "false"
     }
