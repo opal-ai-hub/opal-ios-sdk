@@ -20,9 +20,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-extension OpalSDK.Opal {
-  final public func enableAutomaticNotificationDelegation()
-}
 public struct OpalNotifications {
   public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
   public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
@@ -61,6 +58,7 @@ public struct OpalNotifications {
   final public func enablePlaces() throws(OpalSDK.OpalError)
   final public func disablePlaces() throws(OpalSDK.OpalError)
 }
+
 extension OpalSDK.Opal {
   public enum LogScreenMode {
     case onLoad
@@ -91,7 +89,6 @@ public struct InboxMessage : Swift.Identifiable {
   public let actionable: Swift.Bool
   public typealias ID = Swift.String
 }
-
 public enum OpalError : Swift.Error {
   case serviceUnavailable
   case featureNotEnabled
@@ -159,6 +156,9 @@ public enum OpalError : Swift.Error {
   public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
   @objc override dynamic public init()
   @objc deinit
+}
+extension OpalSDK.Opal {
+  final public func enableAutomaticNotificationDelegation()
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}
