@@ -20,21 +20,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-public struct InboxMessage : Swift.Identifiable {
-  public var id: Swift.String {
-    get
-  }
-  public let itemID: Swift.String
-  public let title: Swift.String
-  public var text: Swift.String?
-  public let createdAt: Foundation.Date
-  public let expiresAt: Foundation.Date?
-  public var isRead: Swift.Bool
-  public let extra: [Swift.AnyHashable : Any]
-  public var image: Swift.String?
-  public let actionable: Swift.Bool
-  public typealias ID = Swift.String
-}
 public enum OpalError : Swift.Error {
   case serviceUnavailable
   case featureNotEnabled
@@ -103,7 +88,6 @@ public enum OpalError : Swift.Error {
   @objc override dynamic public init()
   @objc deinit
 }
-
 extension OpalSDK.Opal {
   final public func enableAutomaticNotificationDelegation()
 }
@@ -145,6 +129,7 @@ public struct OpalNotifications {
   final public func enablePlaces() throws(OpalSDK.OpalError)
   final public func disablePlaces() throws(OpalSDK.OpalError)
 }
+
 extension OpalSDK.Opal {
   public enum LogScreenMode {
     case onLoad
@@ -159,6 +144,21 @@ extension OpalSDK.Opal {
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
   
+}
+public struct InboxMessage : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let itemID: Swift.String
+  public let title: Swift.String
+  public var text: Swift.String?
+  public let createdAt: Foundation.Date
+  public let expiresAt: Foundation.Date?
+  public var isRead: Swift.Bool
+  public let extra: [Swift.AnyHashable : Any]
+  public var image: Swift.String?
+  public let actionable: Swift.Bool
+  public typealias ID = Swift.String
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}
