@@ -44,6 +44,8 @@ public struct InboxMessage : Swift.Identifiable {
 public struct OpalNotifications {
   public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
   public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
+  public static let opalCustomInAppCampaignButtonAction: Foundation.Notification.Name
+  public static let opalInAppConfigurationPushReceived: Foundation.Notification.Name
 }
 @_hasMissingDesignatedInitializers final public class Opal {
   public static let manager: OpalSDK.Opal

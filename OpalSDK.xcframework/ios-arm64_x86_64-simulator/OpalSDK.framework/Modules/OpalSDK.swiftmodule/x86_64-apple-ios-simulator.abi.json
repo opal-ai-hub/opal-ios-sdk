@@ -1728,6 +1728,102 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "opalCustomInAppCampaignButtonAction",
+            "printedName": "opalCustomInAppCampaignButtonAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK0A13NotificationsV35opalCustomInAppCampaignButtonActionSo18NSNotificationNameavpZ",
+            "mangledName": "$s7OpalSDK0A13NotificationsV35opalCustomInAppCampaignButtonActionSo18NSNotificationNameavpZ",
+            "moduleName": "OpalSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK0A13NotificationsV35opalCustomInAppCampaignButtonActionSo18NSNotificationNameavgZ",
+                "mangledName": "$s7OpalSDK0A13NotificationsV35opalCustomInAppCampaignButtonActionSo18NSNotificationNameavgZ",
+                "moduleName": "OpalSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opalInAppConfigurationPushReceived",
+            "printedName": "opalInAppConfigurationPushReceived",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OpalSDK0A13NotificationsV34opalInAppConfigurationPushReceivedSo18NSNotificationNameavpZ",
+            "mangledName": "$s7OpalSDK0A13NotificationsV34opalInAppConfigurationPushReceivedSo18NSNotificationNameavpZ",
+            "moduleName": "OpalSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OpalSDK0A13NotificationsV34opalInAppConfigurationPushReceivedSo18NSNotificationNameavgZ",
+                "mangledName": "$s7OpalSDK0A13NotificationsV34opalInAppConfigurationPushReceivedSo18NSNotificationNameavgZ",
+                "moduleName": "OpalSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -7534,84 +7630,91 @@
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14474,
+      "offset": 14476,
       "length": 18,
       "value": "\"kOPAL_LAST_START\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14536,
+      "offset": 14540,
       "length": 43,
       "value": "\"TBOPAL_ASKED_FOR_NOTIFICATION_PERMISSIONS\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14623,
+      "offset": 14629,
       "length": 26,
       "value": "\"kOPAL_LAST_ACTIVE_PLACES\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14693,
+      "offset": 14701,
       "length": 31,
       "value": "\"kOPAL_IN_APP_CAMPAIGNS_ACTIVE\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14908,
+      "offset": 14778,
+      "length": 45,
+      "value": "\"kOPAL_LAST_INAPP_CAMPAIGN_PRESENTATION_DATE\""
+    },
+    {
+      "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15007,
       "length": 39,
       "value": "\"kOPAL_DID_RECEIVE_REMOTE_NOTIFICATION\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14988,
+      "offset": 15087,
       "length": 38,
       "value": "\"kOPAL_DID_RECEIVE_LOCAL_NOTIFICATION\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15067,
+      "offset": 15166,
       "length": 24,
       "value": "\"OPALRuntimeLogsChanged\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15132,
+      "offset": 15231,
       "length": 28,
       "value": "\"kOPAL_IN_APP_BUTTON_ACTION\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15223,
+      "offset": 15322,
       "length": 32,
       "value": "\"OpalDidUpdateInboxNotification\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15299,
+      "offset": 15398,
       "length": 42,
       "value": "\"TBOPAL_UNREAD_COUNT_UPDATED_NOTIFICATION\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15385,
+      "offset": 15484,
       "length": 37,
       "value": "\"OpalCustomInAppCampaignButtonAction\""
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Private\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 15466,
+      "offset": 15565,
       "length": 36,
       "value": "\"OpalInAppConfigurationPushReceived\""
     },
@@ -7779,42 +7882,42 @@
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "IntegerLiteral",
-      "offset": 1323,
+      "offset": 1959,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "IntegerLiteral",
-      "offset": 1348,
+      "offset": 1984,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "BooleanLiteral",
-      "offset": 2515,
+      "offset": 3151,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "BooleanLiteral",
-      "offset": 2731,
+      "offset": 3367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "BooleanLiteral",
-      "offset": 4938,
+      "offset": 5574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vasilis\/Developer\/opal-ios-sdk-swift\/OpalSDK\/Public\/Opal.swift",
       "kind": "BooleanLiteral",
-      "offset": 38083,
+      "offset": 38687,
       "length": 5,
       "value": "false"
     },
