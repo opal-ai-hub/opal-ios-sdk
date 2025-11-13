@@ -1,0 +1,34 @@
+PROPRIETARY SDK LICENSE AGREEMENT
+
+Copyright © 2025 TREBBBLE S.A.
+
+This Software Development Kit ("SDK") is proprietary software provided by TREBBBLE S.A. for use solely in conjunction with OPAL, a customer engagement platform operated by TREBBBLE S.A.
+
+By downloading or using this SDK, you ("Licensee") agree to the following terms:
+
+1. LICENSE GRANT
+TREBBBLE S.A. grants you a limited, non-exclusive, non-transferable, revocable license to integrate this SDK into your mobile or web applications solely for the purpose of interacting with OPAL's services, subject to a valid subscription or agreement with TREBBBLE S.A.
+
+2. RESTRICTIONS
+You may not:
+- Use this SDK independently of OPAL's services;
+- Modify, reverse engineer, decompile, or disassemble the SDK;
+- Distribute, sublicense, rent, lease, or transfer the SDK or any part of it to any third party;
+- Use the SDK in violation of any applicable law or regulation.
+
+3. OWNERSHIP
+All rights, title, and interest in and to the SDK, including all associated intellectual property rights, remain the exclusive property of TREBBBLE S.A. No rights are granted other than those explicitly described in this agreement.
+
+4. TERMINATION
+This license is effective until terminated. It will terminate automatically if you fail to comply with any of the terms. Upon termination, you must stop using the SDK and delete all copies in your possession.
+
+5. DISCLAIMER OF WARRANTY
+THE SDK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. TREBBBLE S.A. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL TREBBBLE S.A. BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES ARISING FROM THE USE OF THIS SDK.
+
+7. GOVERNING LAW
+This agreement is governed by and construed in accordance with the laws of Greece, without regard to its conflict of law principles.
+
+For more information, visit: https://www.opal.ai
