@@ -354,6 +354,75 @@ do {
 >  **Date**
 >  **Boolean**
 
+## In-App Messaging
+
+The OPAL In-app Messaging feature enables you to engage users directly within your app through context-aware messages.
+
+In-app messages can be displayed automatically or in response to specific user actions within your app.
+Depending on the [campaign setup](https://docs.opal.ai/user-guide/messaging/inapp) in the OPAL CMS, messages may appear when the app is opened, when users visit a particular screen, or after completing a defined event such as a purchase or a form submission.
+Developers can also configure custom triggers to display messages under specific conditions, ensuring that communication is timely and relevant.
+
+>[!NOTE]
+>In-app Messaging was added in version 4.0.0.
+
+>[!NOTE]
+>In-app Messaging is enabled by default.
+
+### Change In-app Messaging Status
+
+To enable In-app Messaging:
+
+```swift
+// Enable OPAL In-app Messaging
+Opal.manager.enableInAppMessaging()
+```
+
+To disable In-app Messaging:
+
+```swift
+// Disable OPAL In-app Messaging
+Opal.manager.disableInAppMessaging()
+```
+
+### Display Trigger Options
+
+| Trigger Type | Description | Related API |
+|--------------|-------------|-----------------------|
+| **Application Open** | Shows when user opens the app | Automatically |
+| **Visit Screen** | Triggers on specific screen/page view | Analytics [Screens](https://docs.opal.ai/sdk/ios/analytics#screens) |
+| **Performed Event** | Shows after user completes an action | Analytics [Custom Events](https://docs.opal.ai/sdk/ios/analytics#custom-events) |
+| **Custom Trigger** | Developer-defined conditions | [Custom Triggers](https://docs.opal.ai/sdk/ios/in-app#custom-triggers) |
+
+### Custom Triggers
+
+Custom triggers allow developers to programmatically display in-app messages based on specific conditions or events defined within the app logic, giving full control over when and how messages appear to users.
+
+To trigger an in-app campaign manually:
+
+```swift
+/// Attempts to trigger an in-app campaign
+/// - Parameter userInfo: A dictionary with key/values that should match the trigger conditions of an In-App Campaign
+Opal.manager.triggerInApp(userInfo: [String : String])
+```
+
+### Custom Fonts
+
+To set custom fonts for all in-app campaigns (optional), ensure that the fonts are included in your app bundle and properly registered in your app's `Info.plist` file as descibed in the [Apple Documentation](https://developer.apple.com/documentation/swiftui/applying-custom-fonts-to-text).
+
+```swift
+/// Sets a custom font for in-app campaigns
+Opal.manager.customFontFamilyName = "MyCustomFontName"
+```
+
+
+### Framework Notifications
+
+The iOS OPAL SDK posts notifications for various in-app campaign events. You can observe these notifications using `NotificationCenter`.
+
+| Notifications |
+|:--|
+| `OpalNotifications.opalCustomInAppCampaignButtonAction`<hr/>Posted when a custom in-app campaign button action is performed.<small><br/>The custom data are provided in the `userInfo` dictionary as `[AnyHashable : Any]`.</small> |
+
 ## Preferences
 
 The OPAL Preferences feature allows you to define and manage user interests or behavioral tags, enabling better audience segmentation and personalized targeting.
