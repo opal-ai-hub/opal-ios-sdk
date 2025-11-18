@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpalSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdSupport
 import Combine
 import CommonCrypto
@@ -22,25 +22,8 @@ import _Concurrency
 import _StoreKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
-import _WebKit_SwiftUI
 import os
 import zlib
-
-public struct InboxMessage : Swift.Identifiable {
-  public var id: Swift.String {
-    get
-  }
-  public let itemID: Swift.String
-  public let title: Swift.String
-  public var text: Swift.String?
-  public let createdAt: Foundation.Date
-  public let expiresAt: Foundation.Date?
-  public var isRead: Swift.Bool
-  public let extra: [Swift.AnyHashable : Any]
-  public var image: Swift.String?
-  public let actionable: Swift.Bool
-  public typealias ID = Swift.String
-}
 public struct OpalNotifications {
   public static let opalDidUpdateInboxNotification: Foundation.Notification.Name
   public static let opalUnreadCountUpdatedNotification: Foundation.Notification.Name
@@ -57,41 +40,27 @@ public struct OpalNotifications {
     get
   }
   final public func start(withConfigurationFile file: Swift.String) throws(OpalSDK.OpalError)
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   final public func handleRemoteNotification(_ notification: [Swift.AnyHashable : Any], completionHandler: ((UIKit.UIBackgroundFetchResult) -> Swift.Void)?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   final public func handleRemoteNotificationResponse(_ response: UserNotifications.UNNotificationResponse, completionHandler: (() -> Swift.Void)?) -> Swift.Bool
-  #endif
   @discardableResult
   final public func handleLocalNotification(_ notification: UserNotifications.UNNotification, completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
   final public func presentInboxItem(_ item: OpalSDK.InboxMessage) throws
   final public func handleDeviceToken(_ deviceToken: Foundation.Data)
   @discardableResult
   @_Concurrency.MainActor final public func fetchInbox() async throws -> [OpalSDK.InboxMessage]
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func fetchInbox(completionHandler: ((_ messages: [OpalSDK.InboxMessage]?, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
-  #endif
   final public func logoutUser()
   final public func loginUser(_ user: Swift.String) async throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func loginUser(_ user: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
-  #endif
   final public func registerForPushNotifications(preferProvisional: Swift.Bool = false)
   @_Concurrency.MainActor final public func numberOfUnreadMessages() async -> Swift.UInt
   final public func numberOfUnreadMessages(completion: @escaping (Swift.UInt) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func logScreenWithName(_ name: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
-  #endif
   final public func didRegister(_ settings: UserNotifications.UNNotificationSettings) throws(OpalSDK.OpalError)
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func logEventWith(category: Swift.String, action: Swift.String, data: [Swift.String : Any]? = nil) throws(OpalSDK.OpalError)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func deleteInboxMessage(_ message: OpalSDK.InboxMessage?) throws(OpalSDK.OpalError)
-  #endif
   final public func registerPreferences(_ tags: [Swift.String]) throws(OpalSDK.OpalError)
   final public func enablePlaces() throws(OpalSDK.OpalError)
   final public func disablePlaces() throws(OpalSDK.OpalError)
@@ -99,87 +68,7 @@ public struct OpalNotifications {
   final public func disableInAppMessaging()
   final public func triggerInApp(userInfo: [Swift.String : Swift.String])
 }
-@objc @objcMembers public class OpalCustomEventItem : ObjectiveC.NSObject {
-  @objc public var id: Swift.String
-  @objc public var type: Swift.String
-  @objc public var name: Swift.String?
-  @objc public var data: [Swift.String : Any]?
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  #endif
-  @objc deinit
-}
-@objc @objcMembers final public class OpalRetailItem : OpalSDK.OpalCustomEventItem {
-  @objc final public var brand: Swift.String?
-  @objc final public var price: Foundation.Decimal
-  @objc final public var currencyCode: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, brand: Swift.String? = nil, price: Foundation.Decimal, currencyCode: Swift.String, data: [Swift.String : Any]? = nil)
-  #endif
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @objcMembers final public class OpalContentItem : OpalSDK.OpalCustomEventItem {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  #endif
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc final public class OpalRetailEvent : OpalSDK.OpalCustomEventItem {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public static func purchase(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal, success: Swift.Bool, reason: Swift.String?) throws
-  #endif
-  @objc public static func view(item: OpalSDK.OpalRetailItem) throws
-  @objc public static func addToCart(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal) throws
-  @objc public static func addToWishlist(item: OpalSDK.OpalRetailItem) throws
-  @objc public static func share(item: OpalSDK.OpalRetailItem, method: Swift.String) throws
-  @objc public static func rate(item: OpalSDK.OpalRetailItem, rating: Foundation.Decimal) throws
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public static func startCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public static func completeCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  #endif
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class OpalContentEvent : OpalSDK.OpalCustomEventItem {
-  @objc public static func view(content: OpalSDK.OpalContentItem) throws
-  @objc public static func share(content: OpalSDK.OpalContentItem, method: Swift.String) throws
-  @objc public static func rate(content: OpalSDK.OpalContentItem, rating: Foundation.Decimal) throws
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
-  #endif
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class OpalGenericEvent : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
-  #endif
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension OpalSDK.Opal {
-  public enum LogScreenMode {
-    case onLoad
-    case onAppear
-    public static func == (a: OpalSDK.Opal.LogScreenMode, b: OpalSDK.Opal.LogScreenMode) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
-  
-  #endif
-}
-extension OpalSDK.Opal {
-  final public func makeUserNotificationCenterDelegate()
-}
+
 public enum OpalError : Swift.Error {
   case serviceUnavailable
   case featureNotEnabled
@@ -205,6 +94,83 @@ public enum OpalError : Swift.Error {
   public var localizedDescription: Swift.String {
     get
   }
+}
+#warning("Needs to be tested")
+public struct InboxMessage : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let itemID: Swift.String
+  public let title: Swift.String
+  public var text: Swift.String?
+  public let createdAt: Foundation.Date
+  public let expiresAt: Foundation.Date?
+  public var isRead: Swift.Bool
+  public let extra: [Swift.AnyHashable : Any]
+  public var image: Swift.String?
+  public let actionable: Swift.Bool
+  public typealias ID = Swift.String
+}
+extension OpalSDK.Opal {
+  final public func makeUserNotificationCenterDelegate()
+}
+extension OpalSDK.Opal {
+  public enum LogScreenMode {
+    case onLoad
+    case onAppear
+    public static func == (a: OpalSDK.Opal.LogScreenMode, b: OpalSDK.Opal.LogScreenMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func logScreenWithName(_ name: Swift.String, mode: OpalSDK.Opal.LogScreenMode = .onLoad, data: [Swift.String : Any]? = nil) -> some SwiftUICore.View
+  
+}
+@objc @objcMembers public class OpalCustomEventItem : ObjectiveC.NSObject {
+  @objc public var id: Swift.String
+  @objc public var type: Swift.String
+  @objc public var name: Swift.String?
+  @objc public var data: [Swift.String : Any]?
+  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@objc @objcMembers final public class OpalRetailItem : OpalSDK.OpalCustomEventItem {
+  @objc final public var brand: Swift.String?
+  @objc final public var price: Foundation.Decimal
+  @objc final public var currencyCode: Swift.String
+  @objc public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, brand: Swift.String? = nil, price: Foundation.Decimal, currencyCode: Swift.String, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class OpalContentItem : OpalSDK.OpalCustomEventItem {
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class OpalRetailEvent : OpalSDK.OpalCustomEventItem {
+  @objc public static func purchase(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal, success: Swift.Bool, reason: Swift.String?) throws
+  @objc public static func view(item: OpalSDK.OpalRetailItem) throws
+  @objc public static func addToCart(item: OpalSDK.OpalRetailItem, quantity: Foundation.Decimal) throws
+  @objc public static func addToWishlist(item: OpalSDK.OpalRetailItem) throws
+  @objc public static func share(item: OpalSDK.OpalRetailItem, method: Swift.String) throws
+  @objc public static func rate(item: OpalSDK.OpalRetailItem, rating: Foundation.Decimal) throws
+  @objc public static func startCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
+  @objc public static func completeCheckout(totalPrice: Foundation.Decimal, currency: Swift.String, itemCount: Swift.Int, data extra: [Swift.String : Any]? = nil) throws
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class OpalContentEvent : OpalSDK.OpalCustomEventItem {
+  @objc public static func view(content: OpalSDK.OpalContentItem) throws
+  @objc public static func share(content: OpalSDK.OpalContentItem, method: Swift.String) throws
+  @objc public static func rate(content: OpalSDK.OpalContentItem, rating: Foundation.Decimal) throws
+  @objc override public init(id: Swift.String, type: Swift.String, name: Swift.String? = nil, data: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class OpalGenericEvent : ObjectiveC.NSObject {
+  public static func search(query: Swift.String, data extra: [Swift.String : Any]? = nil) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 extension OpalSDK.Opal.LogScreenMode : Swift.Equatable {}
 extension OpalSDK.Opal.LogScreenMode : Swift.Hashable {}
